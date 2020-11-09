@@ -1,0 +1,183 @@
+.container {
+  max-width: 960px;
+}
+
+/*
+ * Custom translucent site header
+ */
+
+.site-header {
+  background-color: #165256;
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header a {
+  font-family: 'Nunito',"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+  color: #fafefe;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 15px;
+  transition: ease-in-out color .15s;
+}
+.site-header a:hover, .site-header a.active {
+  color: #6dd6da;
+  transition: ease-in-out color .15s;
+  text-decoration: none;
+}
+
+/*
+ * Dummy devices (replace them with your own or something else entirely!)
+ */
+
+.product-device {
+  position: absolute;
+  right: 10%;
+  bottom: -30%;
+  width: 300px;
+  height: 540px;
+  background-color: #333;
+  border-radius: 21px;
+  -webkit-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+
+.product-device::before {
+  position: absolute;
+  top: 10%;
+  right: 10px;
+  bottom: 10%;
+  left: 10px;
+  content: "";
+  background-color: rgba(255, 255, 255, .1);
+  border-radius: 5px;
+}
+
+.product-device-2 {
+  top: -25%;
+  right: auto;
+  bottom: 0;
+  left: 5%;
+  background-color: #e5e5e5;
+}
+
+
+/*
+ * Extra utilities
+ */
+
+.flex-equal > * {
+  -ms-flex: 1;
+  flex: 1;
+}
+
+      @media only screen and (max-width:1439px) and (min-width: 780px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+		 #pirlem .row {
+		 margin: 0 !important;
+		 padding-left: 0 !important;
+		}
+		#pirlem .col-4, #pirlem .col-8 {
+			flex: 1;
+			margin: 0 !important;
+			max-width: 50%;
+		}
+		#pirlem-hero h2 {
+			margin-top: 10px;
+		}
+		#pirlem-hero .col-8 h1 {
+			font-size: 85px;
+			line-height: 92px;
+		}
+		
+      }	
+	  @media (min-width: 768px) {
+  .flex-md-equal > * {
+    -ms-flex: 1;
+    flex: 1;
+  }
+   #about .mr-md-3, #pirlem-hero .mr-md-3, #gallery .mr-md-3, #testimonial .mr-md-3 {
+	  margin-right: 0 !important;
+	  }
+   #gallery, .my-md-3 {
+   	  margin-top: 0 !important;
+   }
+   .my-md-3 {
+   	  margin-bottom: 0 !important; 
+   }
+   #about .px-md-5, #about .pt-md-5, #pirlem .pl-md-3 {
+   	  padding: 0 !important;
+   }
+   .flip-card {
+   	 height: 603px;
+   }
+   .flip-card-front h2 {
+   	font-size: 60px;
+   }
+   .flip-card p {
+   font-size: 16px;
+   }
+}
+	  @media (max-width: 769px) and (min-width: 736px){
+		
+		#pirlem .col-4, #pirlem .col-8 {
+			flex: 100%;
+			margin: 0 !important;
+			max-width: 100%;
+		}
+		#pirlem-hero .col-8 img {
+		margin-left: 0;
+		}
+		#pirlem-hero {
+		padding-left: 0 !important;
+		}
+		
+		.flipcard, #about .col-4 {
+  	    padding: 0 !important;
+		}
+		
+	  }
+	  
+	   @media (max-width: 720px) {
+	    .pirlem-logo-link {
+			margin-left: auto !important;
+			margin-right: auto !important;
+		}
+	    #pirlem .row {
+			margin: 0;
+		}
+		#pirlem .col-4, #pirlem .col-8 {
+			flex: 100%;
+			max-width: 100%;
+		}
+		
+		#pirlem-hero .col-8 h1 {
+			font-size: 82px;
+			line-height: 82px;
+		}
+		
+		#pirlem-hero .col-8 img {
+			margin-left: 0;
+		}
+		.flip-card {
+			border: 3px dashed red;
+			height: 403px;
+			padding: 0 !important;
+		}
+		.flip-card-front h2 {
+			font-size: 42px;
+		}
+		.flip-card-back h3 {
+  		padding-top: 15px;
+  		text-transform: uppercase;
+		}
+
+		.flip-card-back p {
+  		padding: 32px 15px 15px;
+  		text-align: left;
+		}
+		}
+
+
+.overflow-hidden { overflow: hidden; }

@@ -1,0 +1,240 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font-family: 'Nunito',"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+h1, h2, h3, h4, h5, h6, a, button {
+	font-family: 'Oswald', Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+
+ .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+/* end of global font styles and default */
+#pirlem-hero {
+	margin: 0 !important;
+}
+#pirlem-hero h2 {
+	color: #07191a;
+	font-size: 42px;
+	font-weight: 600;
+	letter-spacing: -2px;
+	line-height: 48px;
+	padding-bottom: 50px;
+}
+
+#pirlem-hero p {
+	padding-left: 20px;
+}
+	
+#pirlem-hero .col-8 {
+	background-image: url("../images/pirlem.jpg");
+	background-color: #6dd6da;
+	margin-right: 0 !important;
+}	
+
+#pirlem-hero .col-8 h1 {
+	color: #fafefe;
+	font-size: 150px;
+	font-weight: 700;
+	line-height: 160px;
+	width: 85%;
+}
+
+#pirlem-hero .col-8 h1, #pirlem-hero .col-8 img {
+	display: inline-block;
+}
+
+#pirlem-hero .col-8 img {
+	margin-left: -120px;
+	vertical-align: baseline;	
+}
+
+#pirlem-hero button {
+	border: 3px solid #07191a;
+	border-radius: 0;
+	color: #07191a;
+	margin: 0 auto;
+	text-transform: uppercase;
+	width: 80%;
+}
+
+#pirlem-hero button:hover {
+	background-color: #07191a;
+	color: #6dd6da;
+}
+
+.row {
+	margin: 0 !important;
+}
+
+/* about flip card */
+.flip-card {
+  background-color: transparent;
+  height: 100vh;
+  padding: 30px;
+}
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+.flip-card-front h2 {
+  color: #6dd6da;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 122px;
+  margin: 0 auto;
+  text-transform: uppercase;
+  width: 90%;
+}
+.flip-card-back {
+  background-color: #6dd6da;
+  color: #fafefe;
+  padding: 20px;
+  transform: rotateY(180deg);
+}
+
+.flip-card-back h3 {
+  padding-top: 40px;
+  text-transform: uppercase;
+}
+
+.flip-card-back p {
+  padding: 72px 15px 15px;
+  text-align: left;
+}
+
+#about .flipcard {
+	border: 3px solid blue;
+	max-height: 503px;
+	margin-right: 0 !important;
+}
+
+/* gallery */
+#gallery .bg-dark {
+	background-color: #07191a !important;
+}
+
+#gallery h2 {
+	color: #fafefe;
+	font-size: 36px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+#gallery .bg-light h2 {
+	color: #07191a;
+}
+
+#gallery .img-thumbnail {
+	background-color: transparent;
+	border: none;
+	border-radius: 0;
+	padding: 0;
+}
+
+/* testimonial */
+#testimonial h2 {
+	color: #07191a;
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 122px;
+	text-transform: uppercase;
+}
+
+#testimonial .bg-light {
+	background-color: #6dd6da !important;
+}
+
+#testimonial p {
+	padding: 8px 48px;
+}
+
+#testimonial button {
+	border: 3px solid #07191a;
+    border-radius: 0;
+    color: #07191a;
+	font-weight: bold;
+    margin: 30px auto 0;
+    text-transform: uppercase;
+    width: 20%;
+}
+
+#testimonial button:hover {
+	background-color: #07191a;
+	color: #6dd6da;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background: #f1f1f1f1;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+/* The dot/bullet/indicator container */
+.dot-container {
+  text-align: center;
+  padding: 20px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #fafefe;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* footer */
+#pirlem-footer {
+	filter: drop-shadow(2px 2px 2px #222); 
+}
+
+footer h5 {
+	color: #07191a;
+	font-family: 'Nunito',"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 15px;
+	line-height: 24px;
+	font-weight: 400;
+}
+
+footer .text-muted {
+	font-family: 'Nunito',"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-weight: 300;
+}
