@@ -66,6 +66,8 @@ h1, h2, h3, h4, h5, h6, a, button {
 	width: 80%;
 }
 
+
+
 #pirlem-hero button:hover {
 	background-color: #07191a;
 	color: #6dd6da;
@@ -171,7 +173,7 @@ h1, h2, h3, h4, h5, h6, a, button {
 	padding: 8px 48px;
 }
 
-#testimonial button {
+#testimonial button, #services button {
 	border: 3px solid #07191a;
     border-radius: 0;
     color: #07191a;
@@ -181,9 +183,19 @@ h1, h2, h3, h4, h5, h6, a, button {
     width: 20%;
 }
 
+#services button {
+	border: 3px solid #6dd6da;
+	color: #6dd6da;
+}
+
 #testimonial button:hover {
 	background-color: #07191a;
 	color: #6dd6da;
+}
+
+#services button:hover {
+	background-color: #6dd6da;
+	color: #07191a;
 }
 
 /* Slideshow container */
@@ -237,4 +249,41 @@ footer h5 {
 footer .text-muted {
 	font-family: 'Nunito',"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	font-weight: 300;
+}
+
+/* services */
+#services-body .container-fluid {
+	padding: 0;
+}
+
+#services .bg-light {
+	padding-left: 3rem;
+}
+
+#services .turquoise {
+	background-color: #6dd6da;
+}
+
+#services .bg-dark {
+	background-color: #07191a !important;
+}
+
+#services .btn-dark {
+	background-color: #6dd6da !important;
+	border: 3px solid #07191a;
+	border-radius: 0;
+	color: #07191a;
+	margin: 0 auto;
+	text-transform: uppercase;
+}
+
+#services .btn-dark:hover {
+	background-color: #07191a !important;
+	border: 3px solid #6dd6da;
+	color: #6dd6da;
+}
+
+/* nav-item active */
+.site-header a.active {
+	background-color: transparent !important;
 }
