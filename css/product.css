@@ -97,7 +97,7 @@
     -ms-flex: 1;
     flex: 1;
   }
-   #about .mr-md-3, #pirlem-hero .mr-md-3, #gallery .mr-md-3, #testimonial .mr-md-3, #services .mr-md-3 {
+   #about .mr-md-3, #pirlem-hero .mr-md-3, #gallery .mr-md-3, #testimonial .mr-md-3, #services .mr-md-3, #contact .mr-md-3, #support .mr-md-3 {
 	  margin-right: 0 !important;
 	  }
    #gallery, .my-md-3 {
@@ -106,7 +106,7 @@
    .my-md-3 {
    	  margin-bottom: 0 !important; 
    }
-   #about .px-md-5, #about .pt-md-5, #pirlem .pl-md-3, #services .px-md-5, #services .pl-md-3 {
+   #about .px-md-5, #about .pt-md-5, #pirlem .pl-md-3, #services .px-md-5, #services .pl-md-3, #contact .px-md-5, #pirlem-contact-socials, #support .pl-md-3, #support .px-md-5 {
    	  padding: 0 !important;
    }
    .flip-card {
@@ -118,7 +118,7 @@
    .flip-card p {
    font-size: 16px;
    }
-   #services .col-md-4 {
+   #services .col-md-4, #support .col-md-4 {
    padding-left: 0;
    padding-right: 0;
    }
@@ -200,7 +200,7 @@
 		padding: 5px !important; 
 		}
 		
-		#services button {
+		#services button, #support button {
 		width: 30%;
 		}
 		}

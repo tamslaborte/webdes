@@ -66,8 +66,6 @@ h1, h2, h3, h4, h5, h6, a, button {
 	width: 80%;
 }
 
-
-
 #pirlem-hero button:hover {
 	background-color: #07191a;
 	color: #6dd6da;
@@ -156,7 +154,7 @@ h1, h2, h3, h4, h5, h6, a, button {
 	padding: 0;
 }
 
-/* testimonial */
+/* testimonial and support */
 #testimonial h2 {
 	color: #07191a;
 	font-size: 36px;
@@ -173,7 +171,7 @@ h1, h2, h3, h4, h5, h6, a, button {
 	padding: 8px 48px;
 }
 
-#testimonial button, #services button {
+#testimonial button, #services button, #support button{
 	border: 3px solid #07191a;
     border-radius: 0;
     color: #07191a;
@@ -183,7 +181,7 @@ h1, h2, h3, h4, h5, h6, a, button {
     width: 20%;
 }
 
-#services button {
+#services button, #support button {
 	border: 3px solid #6dd6da;
 	color: #6dd6da;
 }
@@ -193,7 +191,7 @@ h1, h2, h3, h4, h5, h6, a, button {
 	color: #6dd6da;
 }
 
-#services button:hover {
+#services button:hover, #support button:hover {
 	background-color: #6dd6da;
 	color: #07191a;
 }
@@ -251,24 +249,24 @@ footer .text-muted {
 	font-weight: 300;
 }
 
-/* services */
+/* services, contact and support */
 #services-body .container-fluid {
 	padding: 0;
 }
 
-#services .bg-light {
+#services .bg-light, #contact .bg-light, #support .bg-light  {
 	padding-left: 3rem;
 }
 
-#services .turquoise {
+#services .turquoise, #contact .turquoise, #support .turquoise {
 	background-color: #6dd6da;
 }
 
-#services .bg-dark {
+#services .bg-dark, #contact .bg-dark, #support .bg-dark {
 	background-color: #07191a !important;
 }
 
-#services .btn-dark {
+#services .btn-dark, #contact .btn-dark, #support .btn-dark {
 	background-color: #6dd6da !important;
 	border: 3px solid #07191a;
 	border-radius: 0;
@@ -277,12 +275,85 @@ footer .text-muted {
 	text-transform: uppercase;
 }
 
-#services .btn-dark:hover {
+#services .btn-dark:hover, #contact .btn-dark:hover, #support .bth-dark:hover {
 	background-color: #07191a !important;
 	border: 3px solid #6dd6da;
 	color: #6dd6da;
 }
 
+#contact-fb {
+	background-color: #07191a !important;
+	border: 3px solid #6dd6da;
+	border-radius: 0;
+	color: #6dd6da;
+	margin: 0 auto;
+	text-transform: uppercase;
+}
+
+#contact-fb:hover {
+	background-color: #6dd6da !important;
+	border: 3px solid #6dd6da;
+	color: #07191a;
+}
+
+#contact .btn-dark {
+	width: 30%;
+}
+
+#contact input, #contact textarea {
+	border: 1px solid #6dd6da;
+	border-radius: 0;
+}
+
+#contact textarea {
+	min-height: 200px;
+}
+
+#contact iframe {
+	border: 1px solid #fafefe;
+	min-height: 380px;
+	width: 100%;
+}
+
+#contact .lead {
+	margin-bottom: 50px;
+	padding: 10px 50px 0;
+}
+
+#support .rounded-circle {
+	width: 50%;
+}
+
+#volunteers button {
+	width: 50%;
+}
+
+#volunteers h2 {
+	font-size: 1.3rem;
+}
+
+#volunteers > div {
+	border-top: 30px solid #07191a;
+}
+
+#shop .img-thumbnail{
+	background-color: transparent;
+	border: none;
+	border-radius: 0;
+}
+
+#donate button {
+	width: 35%;
+}
+
+#donate .btn-dark {
+	margin: 30px auto 0;
+}
+
+#donate .btn-dark:hover {
+	background-color: #07191a !important;
+	color: #6dd6da;
+}
 /* nav-item active */
 .site-header a.active {
 	background-color: transparent !important;
